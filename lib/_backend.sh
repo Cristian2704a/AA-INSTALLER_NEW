@@ -164,7 +164,7 @@ mkdir -p public/company1/quickMessages
 chmod 777 public/company1/quickMessages
 mkdir -p public/company1/profile
 chmod 777 public/company1/profile
-npm install
+npm install --force --legacy-peer-deps
 EOF
 
   printf "${GREEN}Instalação das dependências concluída com sucesso!\n"
