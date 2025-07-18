@@ -38,7 +38,7 @@ system_git_clone() {
   sleep 2
 
 sudo su - deploy <<EOF
-  git clone https://Cristian2704a:${token_code}@github.com/Cristian2704a/AutoAtende.git /home/deploy/${instancia_add}
+  git clone https://Cristian2704a:${token_code}@github.com/Cristian2704a/AA_V2.7.3.git /home/deploy/${instancia_add}
 EOF
 
   sleep 2
